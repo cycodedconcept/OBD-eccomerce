@@ -7,3 +7,9 @@
 .navbar {
     background: #020062 !important;
 }
+
+.nav-link {
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
