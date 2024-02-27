@@ -4,4 +4,6 @@ export const Love = require('./love.png');
 export const Not = require('./not.png');
 export const Logo = require('./logo.png');
 export const Image = require('./image.png');
+export const Image2 = require('./image2.png');
+
 

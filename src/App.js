@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Display from './Pages/Display';
 
 function App() {

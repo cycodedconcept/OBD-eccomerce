@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+.box {
+    border: 1px solid rgb(229, 215, 215);
+    padding: 20px;
+}
+
+.box-btn {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #1410B4;
+    color: #1410B4;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.box-btn:hover {
+    background: #1410B4;
+    color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    .row {
+        margin: 0 !important;
+    }
+
+    .box {
+        margin-bottom: 20px;
+    }
+}
+
