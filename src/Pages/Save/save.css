@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+.save-card {
+    border: 1px solid rgb(229, 215, 215);
+    padding: 15px;
+}
+
+.save-btn {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    background: #1410B4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 23px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.box-btn:hover {
+    background: #201f56;
+    color: #fff;
+}
