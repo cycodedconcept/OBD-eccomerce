@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image2, Shopping } from '../../assets'
+import { Image2, Shopping, Love, Image } from '../../assets'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash, faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons'
 
@@ -102,6 +102,89 @@ const Save = () => {
               </div>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-1"></div>
+      </div>
+      <div className="row mb-5 mt-5">
+        <div className="col-sm-12 col-md-12 col-lg-1"></div>
+        <div className="col-sm-12 col-md-12 col-lg-10">
+          <div className="description">
+            <p className='mb-3'>Customers also view</p>
+            <div className="row">
+              <div className="col-sm-12 col-col-md-12 col-lg-3">
+                <div className="box">
+                  <div className="box-head">
+                    <img src={ Love } alt="" />
+                  </div>
+                  <div className="box-body text-center mb-3">
+                    <img src={ Image } alt="" />
+                    <p>Hydraulic Jack</p>
+                  </div>
+                  <div className="box-price d-flex justify-content-between">
+                    <p>₦1000</p>
+                    <p>4.8 <FontAwesomeIcon icon={ faStar } style={{color: "#FFCC00"}}/></p>
+                  </div>
+                  <div className="box-footer mt-3">
+                    <button className='box-btn'>Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-12 col-col-md-12 col-lg-3">
+                <div className="box">
+                  <div className="box-head">
+                    <img src={ Love } alt="" />
+                  </div>
+                  <div className="box-body text-center mb-3">
+                    <img src={ Image } alt="" />
+                    <p>Hydraulic Jack</p>
+                  </div>
+                  <div className="box-price d-flex justify-content-between">
+                    <p>₦1000</p>
+                    <p>4.8 <FontAwesomeIcon icon={ faStar } style={{color: "#FFCC00"}}/></p>
+                  </div>
+                  <div className="box-footer mt-3">
+                    <button className='box-btn'>Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-12 col-col-md-12 col-lg-3">
+                <div className="box">
+                  <div className="box-head">
+                    <img src={ Love } alt="" />
+                  </div>
+                  <div className="box-body text-center mb-3">
+                    <img src={ Image } alt="" />
+                    <p>Hydraulic Jack</p>
+                  </div>
+                  <div className="box-price d-flex justify-content-between">
+                    <p>₦1000</p>
+                    <p>4.8 <FontAwesomeIcon icon={ faStar } style={{color: "#FFCC00"}}/></p>
+                  </div>
+                  <div className="box-footer mt-3">
+                    <button className='box-btn'>Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-12 col-col-md-12 col-lg-3">
+                <div className="box">
+                  <div className="box-head">
+                    <img src={ Love } alt="" />
+                  </div>
+                  <div className="box-body text-center mb-3">
+                    <img src={ Image } alt="" />
+                    <p>Hydraulic Jack</p>
+                  </div>
+                  <div className="box-price d-flex justify-content-between">
+                    <p>₦1000</p>
+                    <p>4.8 <FontAwesomeIcon icon={ faStar } style={{color: "#FFCC00"}}/></p>
+                  </div>
+                  <div className="box-footer mt-3">
+                    <button className='box-btn'>Add to cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div className="col-sm-12 col-md-12 col-lg-1"></div>
       </div>
     </React.Fragment>
   )
