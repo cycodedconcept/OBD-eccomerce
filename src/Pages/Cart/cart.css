@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+.cart-card-body h5 {
+    font-weight: 700;
+}
+
+.fa-item {
+    background: #bed2d6;
+    padding: 10px;
+    border-radius: 20%;
+    vertical-align: -0.875rem !important;
+}
+
+.p-5 {
+    font-weight: 700;
+}
