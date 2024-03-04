@@ -8,8 +8,12 @@
     font-weight: 700;
 }
 
+.cart-row p {
+    font-weight: 400;
+}
+
 .fa-item {
-    background: #bed2d6;
+    background: #CBD6D8;
     padding: 10px;
     border-radius: 20%;
     vertical-align: -0.875rem !important;
@@ -17,4 +21,42 @@
 
 .p-5 {
     font-weight: 700;
+}
+
+.cart-btn, .check-btn {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    background: #FF3B3B;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 23px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.cart-btn:hover {
+    background: #201f56;
+    color: #fff;
+}
+
+.check-btn {
+    background: #201f56;
+    width: 50%;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+
+.cart-over {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+@media screen and (max-width: 680px) {
+    .cart-over, .cart-row  {
+        flex-direction: column;
+    }
+
+    .check-btn {
+        width: 100%;
+    }
 }
