@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+.order-btn, .order-btn2 {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    background: #bcedde;
+    color: #278064;
+    padding: 10px 20px;
+    border-radius: 23px;
+    font-weight: 400;
+    width: 30%;
+}
+
+.order-btn2 {
+    width: 100%;
+    background: none;
+    padding: 10px 0;
+    font-weight: 700;
+    color: #376298;
+    font-size: 22px;
+}
+
+.order-info h5, .order-price h5 {
+    font-weight: 700;
+}
+
+.order-quantity p {
+    font-size: 20px;
+}
+
+.order-info p {
+    font-size: 18px;
+}
+
