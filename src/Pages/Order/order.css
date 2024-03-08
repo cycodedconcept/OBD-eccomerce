@@ -4,7 +4,7 @@
     font-family: "Quicksand", sans-serif;
 }
 
-.order-btn, .order-btn2 {
+.order-btn, .order-btn2, .order-btn3 {
     outline: none;
     box-shadow: none;
     border: 0;
@@ -35,5 +35,49 @@
 
 .order-info p {
     font-size: 18px;
+}
+
+.order-item {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.profile-info h4 {
+    font-weight: 700;
+}
+
+.profile-info p {
+    color: #656f7e;
+}
+
+.order-btn3 {
+    background: #1410B4;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    width: 50%;
+}
+
+@media screen and (max-width: 680px) {
+    .order-flow, .order-item {
+        flex-direction: column;
+    }
+
+    .order-btn, .order-btn3 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .order-image img {
+        width: 100%;
+    }
+
+    .order-quantity {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .order-info {
+        margin: 20px 0;
+    }
 }
 
