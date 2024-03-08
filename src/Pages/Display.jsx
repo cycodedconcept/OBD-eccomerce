@@ -7,6 +7,7 @@ import Save from './Save/Save';
 import Cart from './Cart/Cart';
 import Order from './Order/Order';
 import Checkout from './Checkout/Checkout';
+import Payment from './Checkout/Payment'
 
 
 const Display = () => {
@@ -21,6 +22,7 @@ const Display = () => {
       <Route path='cart' element={<Cart />} />
       <Route path='order' element={<Order />} />
       <Route path='checkout' element={<Checkout />} />
+      <Route path='checkout/payment' element={<Payment />} />
       </Routes>
       </BrowserRouter>
     </React.Fragment>

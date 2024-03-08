@@ -92,3 +92,13 @@
     outline: none !important;
     box-shadow: none !important;
 }
+
+.custom-w-75, .custom-w-50 {
+    width: 60%;
+}
+
+@media screen and (max-width: 680px) {
+    .custom-w-75, .custom-w-50 {
+        width: 100% !important;
+    }
+}
