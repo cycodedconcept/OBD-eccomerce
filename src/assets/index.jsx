@@ -8,8 +8,7 @@ export const Image2 = require('./image2.png');
 export const Shopping = require('./sc.png');
 export const Check = require('./check.png');
 export const Master = require('./mastercard.png');
+export const Visa = require('./visa.png');
+export const Mc = require('./mc.png');
+export const Pay = require('./pay.png');
 export const Card = require('./card.png');
-
-
-
-

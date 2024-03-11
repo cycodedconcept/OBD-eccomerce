@@ -1,6 +1,6 @@
 import React from 'react'
 import './checkout.css'
-import { Card } from '../../assets'
+import { Card, Visa, Mc, Pay } from '../../assets'
 
 
 const Payment = () => {
@@ -34,12 +34,35 @@ const Payment = () => {
       <div className="row">
         <div className="col-sm-12 col-md-12 col-lg-2"></div>
         <div className="col-sm-12 col-md-12 col-lg-8">
-          <div className="profile-section">
-            <center className='mb-5'>
-              <img src={ Card } alt="" />
-            </center>
-            <h6>Add Card</h6>
+          <div className="profile-section text-center">
+            <img src={ Card } alt=""/>
           </div>
+
+          <p className='my-5' style={{ color: '#75898C'}}>Add card</p>
+          <div className="payment-img text-center">
+            <img src={ Visa } alt="" />
+            <img src={ Mc } alt="" />
+            <img src={ Pay } alt="" />
+          </div>
+
+          <form className='order-form custom-w-100 my-5'>
+            <div className="form-group mb-5">
+              <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Noman Manzoor'/>
+            </div>
+            <div className="form-group mb-5">
+              <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='**** **** **** 2345'/>
+            </div>
+            <div className="form-group mb-5">
+              <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='02/30'/>
+            </div>
+            <div className="form-group mb-5">
+              <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='000'/>
+            </div>
+
+            <div className="checkout text-center mt-5">
+                <button className='check-btn'>Check out ₦400,000</button>
+            </div>
+          </form>
         </div>
         <div className="col-sm-12 col-md-12 col-lg-2"></div>
       </div>

@@ -97,13 +97,13 @@
     width: 60%;
 }
 
-.profile-section h6 {
-    font-weight: 700;
-    color: #75898C;
-}
 
 @media screen and (max-width: 680px) {
     .custom-w-75, .custom-w-50 {
         width: 100% !important;
+    }
+
+    .payment-img {
+        padding-left: none !important;
     }
 }
