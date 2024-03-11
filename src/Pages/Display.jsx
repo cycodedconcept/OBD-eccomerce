@@ -10,6 +10,8 @@ import Checkout from './Checkout/Checkout';
 import Payment from './Checkout/Payment'
 
 
+
+
 const Display = () => {
   return (
     <React.Fragment>
