@@ -9,7 +9,7 @@
     padding: 20px;
 }
 
-.box-btn {
+.box-btn, .reg-btn {
     outline: none;
     box-shadow: none;
     border: 1px solid #1410B4;
