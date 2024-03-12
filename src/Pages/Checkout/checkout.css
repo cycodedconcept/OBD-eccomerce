@@ -25,7 +25,7 @@
 .stepper-item::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #ccc;
+    /* border-bottom: 2px solid #ccc; */
     width: 100%;
     top: 20px;
     left: -50%;
@@ -68,7 +68,7 @@
 .stepper-item.completed::after {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #cac9f3;
+    border-bottom: 4px solid #04008B;
     width: 100%;
     top: 20px;
     left: 50%;
@@ -97,6 +97,19 @@
     width: 60%;
 }
 
+
+.con-img img {
+    width: 15%;
+}
+
+.con-img h5 {
+    font-weight: 900;
+}
+
+.con-img p {
+    width: 27.5%;
+    color: rgb(144, 139, 139);
+}
 
 @media screen and (max-width: 680px) {
     .custom-w-75, .custom-w-50 {

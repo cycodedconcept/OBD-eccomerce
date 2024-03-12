@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+.reg-img h5 {
+    color: #4D5657;
+    font-weight: 600;
+}
+
+.reg-img p {
+    color: #020062;
+    font-weight: 400;
+}

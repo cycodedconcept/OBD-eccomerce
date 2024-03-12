@@ -12,3 +12,5 @@ export const Visa = require('./visa.png');
 export const Mc = require('./mc.png');
 export const Pay = require('./pay.png');
 export const Card = require('./card.png');
+export const Success = require('./succ.png');
+export const Mlogo = require('./mlogo.png');

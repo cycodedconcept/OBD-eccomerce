@@ -26,7 +26,7 @@ const Payment = () => {
                         </div>
                     </div>
                 </div>
-              </center>
+          </center>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-1"></div>
       </div>
