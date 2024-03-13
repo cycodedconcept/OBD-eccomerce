@@ -7,7 +7,7 @@ import { Cart, Filter, Love, Not, Logo } from '../assets'
 const Navigation = () => {
   const location = useLocation();
 
-  if (location.pathname === '/form') {
+  if (location.pathname === '/form' || location.pathname === '/verify') {
     return null;
   }
 
