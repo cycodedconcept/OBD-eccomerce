@@ -61,7 +61,6 @@ const Registration = () => {
                         defaultCountry="NG"
                         value={phoneNumber}
                         onChange={setPhoneNumber}
-
                     />
                     </div>
                     <div>

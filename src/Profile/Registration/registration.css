@@ -44,3 +44,20 @@
 .reg p {
     color: #848481;
 }
+
+.ve-btn {
+    background: none;
+    color: #1410B4;
+}
+
+.status-section {
+    margin: 30% 0;
+}
+
+.status-section h5 {
+    font-weight: 900;
+}
+
+.status-section p {
+    color: #b5b2b1;
+}

@@ -14,3 +14,4 @@ export const Pay = require('./pay.png');
 export const Card = require('./card.png');
 export const Success = require('./succ.png');
 export const Mlogo = require('./mlogo.png');
+export const Fail = require('./fail.png');
