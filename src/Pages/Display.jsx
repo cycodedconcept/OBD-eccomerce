@@ -10,6 +10,7 @@ import Checkout from './Checkout/Checkout';
 import Payment from './Checkout/Payment'
 import Confirmation from './Checkout/Confirmation';
 import Registration from '../Profile/Registration/Registration';
+import Login from '../Profile/Login/Login';
 import Verify from '../Profile/Registration/Verify';
 import VerifyStatus from '../Profile/Registration/VerifyStatus';
 
@@ -29,6 +30,7 @@ const Display = () => {
       <Route path='order' element={<Order />} />
       <Route path='checkout' element={<Checkout />} />
       <Route path='/form' element={<Registration />} />
+      <Route path='/login' element={<Login />} />
       <Route path='/verify' element={<Verify />} />
       <Route path='/verify/status' element={<VerifyStatus />} />
       <Route path='checkout/payment' element={<Payment />} />
